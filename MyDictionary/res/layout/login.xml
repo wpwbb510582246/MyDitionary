@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvLoginName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/tv_login_name"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/etLoginName"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvLoginName"
+        android:layout_alignTop="@+id/tvLoginName"
+        android:layout_toRightOf="@+id/tvLoginName" />
+
+    <TextView
+        android:id="@+id/tvLoginCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvLoginName"
+        android:layout_alignRight="@+id/tvLoginName"
+        android:layout_below="@+id/tvLoginName"
+        android:layout_marginTop="15dp"
+        android:text="@string/tv_login_code"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/etLoginCode"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvLoginCode"
+        android:layout_alignLeft="@+id/etLoginName"
+        android:layout_alignRight="@+id/etLoginName"
+        android:layout_alignTop="@+id/tvLoginCode" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLoginCode"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/btn_lonin"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnLogin"
+        android:layout_alignTop="@+id/btnLogin"
+        android:layout_marginLeft="27dp"
+        android:layout_toRightOf="@+id/btnLogin"
+        android:text="@string/btn_register"
+        android:textSize="18sp" />
+
+</RelativeLayout>

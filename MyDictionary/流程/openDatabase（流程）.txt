@@ -1,0 +1,10 @@
+openDatabase（流程）
+
+1、获得dictory.db的绝对路径
+2、如果/sdcard/dictory目录不存在，创建这个目录
+3、如果目录/sdcard/dictionary目录中不存在dictionary.db，则从res/raw目录中复制这个文件到SD卡的目录（sdcard/dictionary）
+4、获得封装dictionary.db的InputStream对象
+5、开始复制dictionary.db文件
+6、关闭文件流
+7、打开sdcard/dictionary目录中的dictionary.db文件
+8、如果打开出错，则返回null

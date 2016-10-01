@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">电子词典</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">搜索</string>
+    <string name="search_result">查询结果：</string>
+    <string name="tv_login_name">用户名：</string>
+    <string name="tv_login_code">密    码：</string>
+    <string name="btn_lonin">登录</string>
+    <string name="btn_register">注册</string>
+    <string name="toast_1">您输入的用户名和密码不匹配，请重新输入！</string>
+    <string name="tv_Register">注册</string>
+    <string name="btn_back">返回</string>
+    <string name="register_succeed">注册成功！</string>
+    <string name="search_locally">本地搜索</string>
+    <string name="search_online">在线查找</string>
+    <string name="search_error">请输入网址！</string>
+    <string name="btn_about">关于</string>
+    <string name="tv_about">软件名称：电子词典\n软件功能：通过此软件您可以在没有网络的情况下使用本地词库来查找单词的意思，方便快捷，同时在有网络的情况下您也可以在线查找单词的释义，使您查到更为准确的单词的意思\n作者：魏鹏\n手机：18342913043\n QQ ：1093579950\n邮箱：weipengweibeibei@gmail.com\n说明：由于本人能力有限，所以软件尚存在不足之处，欢迎大家能批评指正，如果您对本软件有什么好的意见或建议，可以通过邮箱：weipengweibeibei@gmail.com与我取得联系，本人将不胜感激\n本版权归魏鹏所有，任何未经许可的复制、更改均触犯了《中华人民共和国著作权保护法》</string>
+    <string name="user_already_exits">你要注册的用户已经存在，请重新输入用户名进行注册，或者在登录界面输入用户名和密码进行登录！</string>
+    <string name="finish_activity_after_go_back">再按一下返回键退出浏览器！</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvRegisterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/tv_login_name"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/etRegiserName"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvRegisterName"
+        android:layout_alignTop="@+id/tvRegisterName"
+        android:layout_toRightOf="@+id/tvRegisterName" />
+
+    <TextView
+        android:id="@+id/tvRegisterCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvRegisterName"
+        android:layout_alignRight="@+id/tvRegisterName"
+        android:layout_below="@+id/tvRegisterName"
+        android:layout_marginTop="15dp"
+        android:text="@string/tv_login_code"
+        android:textColor="@color/black"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/etRegisterCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvRegisterCode"
+        android:layout_alignLeft="@+id/etRegiserName"
+        android:layout_alignRight="@+id/etRegiserName"
+        android:layout_alignTop="@+id/tvRegisterCode"
+        android:layout_toRightOf="@+id/tvRegisterCode" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvRegisterCode"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/tv_Register"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnRegister"
+        android:layout_alignTop="@+id/btnRegister"
+        android:layout_toRightOf="@+id/btnRegister"
+        android:layout_marginLeft="15dp"
+        android:text="@string/btn_back"
+        android:textSize="18sp" />
+
+</RelativeLayout>

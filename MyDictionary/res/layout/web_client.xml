@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgHome"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_home_background"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/imgSearch"
+            android:layout_width="39dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/actWebsite"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/actWebsite"
+            android:background="@drawable/icon_search" />
+
+        <AutoCompleteTextView
+            android:id="@+id/actWebsite"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imgHome"
+            android:layout_alignTop="@+id/imgHome"
+            android:layout_toLeftOf="@+id/imgSearch"
+            android:layout_toRightOf="@+id/imgHome"
+            android:imeOptions="actionGo"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/pbProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/lime"
+        android:max="100"
+        android:progress="0"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/wvWebInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>
